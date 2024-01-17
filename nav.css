@@ -1,0 +1,99 @@
+/*
+Navigation area styling 
+*/
+nav{
+    background-color: rgb(61, 54, 54);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav h1{
+    color: white;
+    font-size: 36px;
+}
+
+.hamburger{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.line{
+    height: 2px;
+    width: 40px;
+    background-color: white;
+    margin-top: 11px;
+}
+
+.home-link-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-link-holder p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-left: 50px;
+}
+
+.title-holder{
+    margin: 0;
+    padding: 0;
+    color: white;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.th-h1, .th-h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    nav img{
+        width: 35px;
+        height: 35px;
+        margin-left: 0px;
+    }
+    
+    .home-link-holder p{
+        margin-left: 10px;
+    }
+    
+    nav h1{
+        font-size: 24px;
+    }
+    
+    .hamburger{
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .line{
+        width: 30px;
+        margin-top: 7px;
+    }
+
+}
+
